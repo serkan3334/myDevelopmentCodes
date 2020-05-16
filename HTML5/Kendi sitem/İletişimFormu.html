@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>İletişim formu</title>
+
+    <style>
+        div
+        {
+         width: 50%;
+        }
+        input
+        {
+        border: 1px solid red;
+        }
+        form
+        {
+            width: 50%;
+            align-content: center;
+
+        }
+
+        #fname {
+            font-size:14px;
+            text-align: center;
+
+
+        /*#fname
+         {
+         border: 5px solid aqua;
+         }
+         -->
+         */
+    </style>
+</head>
+<div><h1><i>Başvuru formu</i></h1></div>
+<body>
+<!-- form içerisndeki action verilerin nereye gidilmesi gerektigini göstermektedir. Action genellde url olur -->
+<form action="http://localhost:63342/Front%20end%20course/HTML5/%C4%B0leti%C5%9Fim%20formu%20doldurma/ileti%C5%9Fim.html?_ijt=tmc8nah734ta6n7lmv02mnp2jl"  method="get">
+    <label for="fname"> First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="İsim giriniz."> <br> <br>
+
+    <label for="Lname"> Last Name:</label>
+    <input type="text" id="Lname" name="fname" placeholder="Soyadınızı giriniz."> <br><br>
+
+    <label for="checkbox">Sevdiginiz sporu seçiniz.</label>
+    <input type="checkbox" id="checkbox" placeholder="checkbox seçiniz" name="checkbox">Futbol
+    <input type="checkbox" id="checkbox" placeholder="checkbox seçiniz" name="checkbox">Basketbol
+    <input type="checkbox" id="checkbox" placeholder="checkbox seçiniz" name="checkbox">Voleybol
+    <br><br>
+    <label for="radio-button">Cinsiyeti giriniz</label>
+    <input type="radio" name="radio-button" id="radio-button" >Erkek
+    <input type="radio" name="radio-button" id="radio-button" >Kadın
+    <br><br>
+
+    <label for="drop-down"> Güvenlik sorusu: Türkiye'nin balkenti neresidir?</label><br><br>
+
+
+    <select name="drop-down" id="drop-down" >
+        <optgroup label="iller">
+            <option value=""istanbul> istanbul </option>
+            <option value="Van"> Van</option>
+            <option value="Mugla">Mugla</option>
+
+        </optgroup>
+    </select>
+    <br><br>
+
+
+    <textarea name="textarea" id="" cols="30" rows="10" placeholder="Lütfen şikayetinizi giriniz.."></textarea> <br><br>
+    <h4>Kayıt olunuz:</h4>
+    <input type="submit" value="Kayıt ol">
+
+
+</form>
+
+
+</body>
+</html>

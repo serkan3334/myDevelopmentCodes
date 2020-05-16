@@ -1,0 +1,79 @@
+#logo {
+    border: 1px solid red;
+    width: 100px;
+    height: 80px;
+}
+
+#name {
+    border: 1px solid red
+}
+
+body {
+
+background: p.none {
+    display: none;
+
+}
+
+.banner {
+    border: 18px solid black;
+    width: 33%;
+    background-image: url("https://images.stockfreeimages.com/682/sfixl/6826684.jpg");
+    background-size: 100%;
+
+}
+
+
+#alignCenter {
+    align-content: center;
+    border-radius: 8px;
+    margin-right: 50px;
+    border: 1px solid red;
+}
+
+p {
+    /* metinlerin başlangıç yerlerini ne kadar içerden balşlatmak istiyorsan o kadar girinti yappabilirsin*/
+    text-indent: 10px;
+}
+
+
+li a {
+    display: inline;
+    color: red;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+
+li a {
+    float: left;
+    border-right: 2px solid #333333;
+}
+
+li a :last-child {
+    border-right: aqua;
+}
+
+#ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+a[title="ses ve video"]:link {
+    color: #333333;
+}
+
+a:hover {
+    color: red;
+    font-size: 22px;
+    background: yellow;
+}
+
+#header {
+    border: 1px solid #ff0218;
+    background-image: url("../div etiketi/resimlerr/IMG_3125.JPG");
+    background-size: 450px;
+}
